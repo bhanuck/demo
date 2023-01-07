@@ -1,0 +1,173 @@
+<html>
+<head>
+<script> 
+var i=0;
+
+function func1(){
+console.log(i);
+if(i == 0){
+	document.getElementById("text1").style.fontSize="100px";	
+	document.getElementById("text1").style.color = "blue";
+	document.getElementById("text1").style.backgroundColor = "yellow";
+	i=1;
+}else 
+{
+	document.getElementById("text1").style.fontSize="100px";	
+	document.getElementById("text1").style.color = "blue";
+	document.getElementById("text1").style.backgroundColor = "red";
+	i=0;
+	
+}
+
+
+}
+
+
+function func2(){
+console.log(i);
+if(i == 0){
+	document.getElementById("text2").style.fontSize="110px";
+	document.getElementById("text2").style.color = "red";
+	document.getElementById("text2").style.backgroundColor = "blue";
+	i=1;
+}else
+{
+
+	document.getElementById("text2").style.fontSize="110px";
+	document.getElementById("text2").style.color = "red";
+	document.getElementById("text2").style.backgroundColor = "yellow";
+	i=0;
+}
+
+
+}
+function func3(){
+console.log(i);
+if(i == 0){
+	document.getElementById("text3").style.fontSize="120px";
+	document.getElementById("text3").style.color = "yellow";
+	document.getElementById("text3").style.backgroundColor = "green";
+	i=1;
+}else
+{
+	document.getElementById("text3").style.fontSize="120px";
+	document.getElementById("text3").style.color = "yellow";
+	document.getElementById("text3").style.backgroundColor = "red";
+	i=0;
+}
+}
+
+function func4(){
+if (i == 0){
+	document.getElementById("text4").style.fontSize="120px";
+	document.getElementById("text4").style.color = "yellow";
+	document.getElementById("text4").style.backgroundColor = "white";
+	i=1;
+}else
+{
+	document.getElementById("text4").style.fontSize="120px";
+	document.getElementById("text4").style.color = "yellow";
+	document.getElementById("text4").style.backgroundColor = "blue";
+	i=0;
+}
+}
+
+function func5(){
+if(i == 0){
+	document.getElementById("text5").style.fontSize="120px";
+	document.getElementById("text5").style.color = "yellow";
+	document.getElementById("text5").style.backgroundColor = "red";
+	i=1;
+}else
+{
+	document.getElementById("text5").style.fontSize="120px";
+	document.getElementById("text5").style.color = "yellow";
+	document.getElementById("text5").style.backgroundColor = "white";
+	i=0;
+}
+}
+
+function func6(){
+	if(i == 0){
+	document.getElementById("text6").style.fontSize="120px";
+	document.getElementById("text6").style.color = "blue";
+	document.getElementById("text6").style.backgroundColor = "yellow";
+	i=1;
+}else
+{
+	document.getElementById("text6").style.fontSize="120px";
+	document.getElementById("text6").style.color = "blue";
+	document.getElementById("text6").style.backgroundColor = "white";
+	i=0;
+}
+}
+function func7(){
+if(i == 0){
+	document.getElementById("text7").style.fontSize="120px";
+	document.getElementById("text7").style.color = "blue";
+	document.getElementById("text7").style.backgroundColor = "green";
+	i=1;
+}else
+{
+	document.getElementById("text7").style.fontSize="120px";
+	document.getElementById("text7").style.color = "blue";
+	document.getElementById("text7").style.backgroundColor = "red";
+	i=0;
+}
+}
+function func8(){
+if(i == 0){
+	document.getElementById("text8").style.fontSize="120px";
+	document.getElementById("text8").style.color = "blue";
+	document.getElementById("text8").style.backgroundColor = "red";
+	i=1;
+}else
+{	document.getElementById("text8").style.fontSize="120px";
+	document.getElementById("text8").style.color = "blue";
+	document.getElementById("text8").style.backgroundColor = "green";
+	i=0;
+}
+}
+function func9(){
+if(i == 0){
+	document.getElementById("text9").style.fontSize="120px";
+	document.getElementById("text9").style.color = "yellow";
+	document.getElementById("text9").style.backgroundColor = "blue";
+	i=1;
+}else
+{	document.getElementById("text9").style.fontSize="120px";
+	document.getElementById("text9").style.color = "yellow";
+	document.getElementById("text9").style.backgroundColor = "white";
+	i=0;
+}
+}
+
+</script>
+
+<title>GAME</title>
+</head>
+<body>
+<br>
+<br>
+<center>
+<table width="700" height="700" border="5">
+<tr align="center">
+
+<td onClick=func1() style="background-color:green;font-size:80px; color:red"> <P id="text1">A</P></td>
+<td onClick=func2() style="background-color:red;font-size:80px;color:yellow"> <p id="text2">B</p></td>
+<td onClick=func3() style="background-color:cyan;font-size:80px;"><p id="text3">C</p></td>
+</tr>
+<tr align="center">
+<td onclick=func4() style="background-color:blue;font-size:80px;color:red"><p id="text4">D</p></td>
+<td onclick=func5() style="background-color:yellow;font-size:80px; color:blue"><p id="text5"> E</p></td>
+<td onclick=func6() style="background-color:green;color: white;font-size:80px; color:red"><p id="text6">F</p></td>
+</tr>
+<tr align="center">
+<td  onclick=func7() style="background-color:red;font-size:80px; color:blue"><p id="text7">G</p></td>
+<td  onclick=func8() style="background-color:blue;color:white;font-size:80px; color:green"><p id="text8">H</p></td>
+<td onclick=func9()  style="background-color:yellow;font-size:80px; color:white"><p id ="text9">I</p></td>
+</tr>
+</center>
+</table>
+</body>
+</html>
